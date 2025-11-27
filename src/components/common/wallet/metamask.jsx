@@ -15,14 +15,13 @@ import './metamask.css';
 const isDarkMode = typeof window !== 'undefined' ? window.matchMedia("(prefers-color-scheme: dark)").matches : false;
 // console.log("Is dark mode?", isDarkMode);
 const firebaseConfig = {
-    apiKey: "AIzaSyBFBuQlWblYJKqh2gxp-vQ_BbyVLRaMp-U",
-    authDomain: "myproject-e26a3.firebaseapp.com",
-    databaseURL: "https://myproject-e26a3-default-rtdb.firebaseio.com",
-    projectId: "myproject-e26a3",
-    storageBucket: "myproject-e26a3.firebasestorage.app",
-    messagingSenderId: "340525504262",
-    appId: "1:340525504262:web:59925e0af4aec3bce8f087",
-    measurementId: "G-PVZGRFE4HV"
+     apiKey: "AIzaSyC_95gp9nOx0qQZ0su9Q0EHHRN72vQ7OeA",
+  authDomain: "billionairiventure.firebaseapp.com",
+  projectId: "billionairiventure",
+  storageBucket: "billionairiventure.firebasestorage.app",
+  messagingSenderId: "331283279318",
+  appId: "1:331283279318:web:a851078b1a6cbf108b4877",
+  measurementId: "G-02MXZXN42K"
   };
 
 const app = initializeApp(firebaseConfig);

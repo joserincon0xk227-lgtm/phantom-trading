@@ -1,0 +1,89 @@
+.fontFamily {
+    font-family:"Inter, Roboto, Arial"
+}
+
+.unlock {
+    background-color: #AB9FF2!important
+}
+
+.unlock:hover {
+    background-color: #E2DFFE!important
+}
+
+.forgot {
+    color: #999
+}
+
+.forgot:hover {
+    color: white;
+}
+
+.question_tag {
+    background-color: "#777777";
+    color: "#777777";
+    cursor: pointer;
+}
+
+.question_tag:hover {
+    color: white;
+}
+
+.bColor {
+    fill:'#777777'
+}
+
+.bColor:hover {
+    fill: '#fff';
+}
+
+input[type='password'] {
+    --tw-ring-shadow: none!important;
+}
+
+.errorAlert {
+    border-color: red!important;
+}
+
+.defaultAlert {
+    border-color: #222!important;
+}
+
+.modalContentFade {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+    animation-delay: 0.4s;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-2px); }
+    50% { transform: translateX(2px); }
+    75% { transform: translateX(-2px); }
+    100% { transform: translateX(0); }
+  }
+  
+  .errorAlert {
+    border: 1px solid rgb(226, 53, 53);
+    animation: shake 0.5s ease;
+  }
+  
+  .defaultAlert {
+    border: 1px solid #444;
+  }
+  .vibrate {
+    animation: vibrate 0.3s linear ;
+}
+
+@keyframes vibrate {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(2px); }
+    50% { transform: translateX(-2px); }
+    75% { transform: translateX(2px); }
+    100% { transform: translateX(0); }
+}
+  
